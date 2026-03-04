@@ -1,0 +1,48 @@
+body {
+padding-top: 70px;
+}
+
+.hero {
+height: 100vh;
+background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+url('images/photo-1.jpg') center/cover no-repeat;
+}
+
+
+
+.navbar-brand .logo {
+    border-radius: 50%;
+    object-fit: cover;
+}
+.navbar-brand .brand-text{
+    font-weight: bold;
+    font-size: 1.25rem;
+    color: white
+    ;
+}
+
+.hero h1 {
+font-size: 50px;
+font-weight: bold;
+}
+.card img {
+height: 220px;
+object-fit: cover;
+}
+
+.card {
+transition: 0.3s;
+}
+
+.card:hover {
+transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+.hero {
+height: 60vh;
+}
+.hero h1 {
+font-size: 28px;
+}
+}
